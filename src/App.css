@@ -1,38 +1,12 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card {
+    background-image: linear-gradient(to top, #0A1E32 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.2s ease-in-out; /** I've changed the time for demo purposes **/
+    color: black;
+    box-shadow: -1px 10px 22px -2px rgba(16,110,234,1);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+.card:hover {
+    background-position: bottom;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
