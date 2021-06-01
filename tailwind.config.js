@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], // or 'media' or 'class'
+  purge: [], // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -12,7 +12,6 @@ module.exports = {
   variants: {
     extend: {
       scale : ['group-hover'],
-      borderRadius: ['hover', 'focus'],
     },
   },
   plugins: [],
